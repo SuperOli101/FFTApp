@@ -1,0 +1,9 @@
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\bin\Debug\FFTApp.Infrastructure.Business.TestFrame.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\bin\Debug\FFTApp.Infrastructure.Business.TestFrame.pdb
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\bin\Debug\FFTApp.Infrastructure.Domain.TestData.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\bin\Debug\FFTApp.Infrastructure.Domain.TestData.pdb
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\obj\Debug\Infrastructure.Business.TestFrame.csprojAssemblyReference.cache
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\obj\Debug\Infrastructure.Business.TestFrame.csproj.CoreCompileInputs.cache
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\obj\Debug\Infrastructure.Business.TestFrame.csproj.CopyComplete
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\obj\Debug\FFTApp.Infrastructure.Business.TestFrame.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Infrastructure\Infrastructure.Business.TestFrame\obj\Debug\FFTApp.Infrastructure.Business.TestFrame.pdb

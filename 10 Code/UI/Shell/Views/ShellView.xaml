@@ -1,0 +1,23 @@
+﻿<Window x:Class="FFTApp.UI.Shell.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FFTApp.UI.Shell"
+        mc:Ignorable="d"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"    
+        xmlns:tools="clr-namespace:FFTApp.UI.Infrastructure.Converters;assembly=FFTApp.UI.Infrastructure.Global"
+        xmlns:rn="clr-namespace:FFTApp.UI.Infrastructure.Regions;assembly=FFTApp.UI.Infrastructure.Local"
+        MinHeight="{Binding Source={x:Static SystemParameters.PrimaryScreenHeight}, Converter={tools:RatioConverter}, ConverterParameter='0.5'}" 
+        MinWidth="{Binding Source={x:Static SystemParameters.PrimaryScreenWidth}, Converter={tools:RatioConverter}, ConverterParameter='0.5'}" 
+        Left="0"
+        Top="0"                
+        WindowState="Maximized"        
+        Title="{Binding Title}" >
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionShell}" />
+        
+        <!--ShellContentRegion-->
+    </Grid>
+</Window>

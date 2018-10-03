@@ -1,0 +1,9 @@
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\bin\Debug\FFTApp.Domain.TestData.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\bin\Debug\FFTApp.Domain.TestData.pdb
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\bin\Debug\FFTApp.Infrastructure.Domain.TestData.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\bin\Debug\FFTApp.Infrastructure.Domain.TestData.pdb
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\obj\Debug\TestData.csprojAssemblyReference.cache
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\obj\Debug\TestData.csproj.CoreCompileInputs.cache
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\obj\Debug\TestData.csproj.CopyComplete
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\obj\Debug\FFTApp.Domain.TestData.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\Domain\TestData\obj\Debug\FFTApp.Domain.TestData.pdb

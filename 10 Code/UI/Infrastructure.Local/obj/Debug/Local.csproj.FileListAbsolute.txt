@@ -1,0 +1,5 @@
+D:\Mein\Projekte\_Probe\2017\DataEvaluationWPF\DataEvaluationWPF\10 Code\UI\Infrastructure\Local\bin\Debug\DataEvaluationWPF.UI.Infrastructure.Local.dll
+D:\Mein\Projekte\_Probe\2017\DataEvaluationWPF\DataEvaluationWPF\10 Code\UI\Infrastructure\Local\bin\Debug\DataEvaluationWPF.UI.Infrastructure.Local.pdb
+D:\Mein\Projekte\_Probe\2017\DataEvaluationWPF\DataEvaluationWPF\10 Code\UI\Infrastructure\Local\obj\Debug\Local.csproj.CoreCompileInputs.cache
+D:\Mein\Projekte\_Probe\2017\DataEvaluationWPF\DataEvaluationWPF\10 Code\UI\Infrastructure\Local\obj\Debug\DataEvaluationWPF.UI.Infrastructure.Local.dll
+D:\Mein\Projekte\_Probe\2017\DataEvaluationWPF\DataEvaluationWPF\10 Code\UI\Infrastructure\Local\obj\Debug\DataEvaluationWPF.UI.Infrastructure.Local.pdb

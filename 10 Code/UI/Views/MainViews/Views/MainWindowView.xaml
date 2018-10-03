@@ -1,0 +1,50 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:rn="clr-namespace:FFTApp.UI.Infrastructure.Regions;assembly=FFTApp.UI.Infrastructure.Local"
+             xmlns:local="clr-namespace:FFTApp.UI.Views" 
+             xmlns:behavior="clr-namespace:FFTApp.UI.Infrastructure.Behaviors;assembly=FFTApp.UI.Infrastructure.Global"
+             xmlns:prism="http://prismlibrary.com/"             
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" x:Class="FFTApp.UI.Views.MainWindowView"
+             mc:Ignorable="d"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <ContentControl prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionToolBar}"  DockPanel.Dock="Top" Width="Auto" Height="Auto" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"/>
+            <ContentControl prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionStatusBar}" DockPanel.Dock="Bottom" Width="Auto" Height="Auto" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"/>
+            <TabControl prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionTab}" Width="Auto" Height="Auto" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch">
+                <behavior:DataPiping.DataPipes>
+                    <behavior:DataPipeCollection>
+                        <behavior:DataPipe Source="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type TabControl}}}"
+                         Target="{Binding Path=WidthTab, Mode=OneWayToSource}"/>
+                        <behavior:DataPipe Source="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType={x:Type TabControl}}}"
+                         Target="{Binding Path=HeightTab, Mode=OneWayToSource}"/>
+                    </behavior:DataPipeCollection>
+                </behavior:DataPiping.DataPipes>
+                <!--<TabControl.ItemContainerStyle>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Header" Value="{Binding Content.DataContext.ViewName, RelativeSource={RelativeSource Self}}" />
+                    </Style>
+                </TabControl.ItemContainerStyle>-->
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SizeChanged">
+                        <ei:CallMethodAction TargetObject="{Binding}" MethodName="ChangedSizeOfTab"/>
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="Loaded">
+                        <ei:CallMethodAction TargetObject="{Binding}" MethodName="LoadedTab"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TabControl>
+        </DockPanel>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <ContentControl prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionToolBar}" />
+        <TabControl Grid.Row="1" Margin="1" prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionMainView}" />
+        <ContentControl Grid.Row="2" prism:RegionManager.RegionName="{x:Static rn:RegionNames.ContentRegionStatusBar}" />-->
+    </Grid>
+</UserControl>

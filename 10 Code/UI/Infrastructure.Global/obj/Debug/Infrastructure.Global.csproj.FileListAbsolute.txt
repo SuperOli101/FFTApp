@@ -1,0 +1,5 @@
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\UI\Infrastructure.Global\bin\Debug\FFTApp.UI.Infrastructure.Global.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\UI\Infrastructure.Global\bin\Debug\FFTApp.UI.Infrastructure.Global.pdb
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\UI\Infrastructure.Global\obj\Debug\Infrastructure.Global.csproj.CoreCompileInputs.cache
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\UI\Infrastructure.Global\obj\Debug\FFTApp.UI.Infrastructure.Global.dll
+D:\Mein\Projekte\_Probe\2017\FFTApp\10 Code\UI\Infrastructure.Global\obj\Debug\FFTApp.UI.Infrastructure.Global.pdb
